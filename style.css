@@ -27,3 +27,21 @@
     text-decoration: none;
 
 }
+
+body{
+    background-color: rgba(74, 215, 215, 0.458);
+}
+
+main{
+    max-width: 800px;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    text-align: justify;
+    padding: 10px;
+    text-indent: 15px;
+    
+
+
+    
+
+}
