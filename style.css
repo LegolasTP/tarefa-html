@@ -2,12 +2,11 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
-    
+    font-family: Arial, Helvetica, sans-serif;    
 }
 
-body{
-    background-color: rgba(74, 215, 215, 0.458);
+body{    
+    background-color: rgba(74, 215, 215, 0.458);    
 }
 
 
@@ -30,10 +29,11 @@ body{
 .nav > a{
     color:white;
     text-decoration: none;
-
+    font-size: 20px;
 }
 
 .nav > a > div:hover{  /* quando passar o mouse na div do link*/
+
     background-color: rgb(32, 122, 201);
     transition: 0.9s;  /* tempo para trocar a cor do fundo */
 }
@@ -46,8 +46,19 @@ main{
     padding: 10px;
     text-indent: 1.5em;
     line-height: 1.2em;
-    font-size: 1.2em;
+    font-size: 1.2em;    
 
-    
+}
 
+footer{ /* configuraçõe para o rodapé*/
+
+    text-align: center; /* texto alinhado ao centro */
+    background-color: rgb(36, 138, 227); 
+    color: white; 
+    height: 90px; /* mesma altura da imagem*/
+}
+
+footer > img{ /* configurações para imagem dentro do rodapé */
+
+    float: left; /* faz ela ficar no canto esquerdo*/
 }
