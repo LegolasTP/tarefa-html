@@ -7,6 +7,7 @@
 
 body{    
     background-color: rgba(74, 215, 215, 0.458);    
+    max-height: 750px;
 }
 
 
@@ -50,8 +51,11 @@ main{
 
 }
 
-footer{ /* configuraçõe para o rodapé*/
+main p { /* para todo parágrado dentro de main*/
+    padding: 8px;
+}
 
+footer{ /* configuraçõe para o rodapé */
     text-align: center; /* texto alinhado ao centro */
     background-color: rgb(36, 138, 227); 
     color: white; 
