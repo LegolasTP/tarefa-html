@@ -74,9 +74,16 @@ footer{ /* configuraçõe para o rodapé */
     background-color: rgb(36, 138, 227); 
     color: white; 
     height: 90px; /* mesma altura da imagem*/
+    
 }
 
 footer > img{ /* configurações para imagem dentro do rodapé */
 
     float: left; /* faz ela ficar no canto esquerdo*/
 }
+
+footer > p {
+
+    padding-top: 5px;
+}
+
