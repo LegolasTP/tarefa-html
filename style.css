@@ -87,3 +87,27 @@ footer > p {
     padding-top: 5px;
 }
 
+
+/* ------------------------ INSCRIÇÃO --------------------------*/
+
+
+main > form > p{
+    padding-top: 5px;
+    height: 60px;
+    width: 400px;
+    margin: auto;
+}
+
+main > form > p > label > span{   
+    color: rgb(47, 85, 211);
+}
+
+main > form > p > input{
+    width: 250px;
+    height: 40px;
+    text-align: center;
+    transform: translateY(-18px);
+    font-size: 18px;
+}
+
+

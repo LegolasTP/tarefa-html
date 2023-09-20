@@ -6,6 +6,7 @@
     <title>Inscreva-se!</title>
     <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 <body>
     <div class="nav">
@@ -16,30 +17,39 @@
         <a href="#">
             <div style="background-color: #207ac9;">Inscreva-se</div>
         </a>
-        <a href="#">
+        <a href="contato.html">
             <div>Contato</div>
         </a>
     </div>
 
     <main>
-        <form action="#" method="post" autocomplete="on">
+        <form action="" method="get" autocomplete="on">
             <p>
-                <label for="inome">Nome: </label>
-                <input type="text" name="nome" id="inome" required>
+                
+                <label for="inome"><span class="material-symbols-outlined" style="font-size: 50px;">
+                    person
+                </span></label>
+                <input type="text" name="nome" id="inome" required placeholder="Nome">
             </p>
 
             <p>
-                <label for="iemail">E-mail: </label>
-                <input type="email" name="email" id="iemail" required>
+                <label for="iemail"><span class="material-symbols-outlined" style="font-size: 50px;">
+                    mail
+                </span></label>
+                <input type="email" name="email" id="iemail" required placeholder="E-mail">
             </p>
 
             <p>
-                <label for="itele">Telefone: </label>
-                <input type="tel" name="tele" id="itele" required placeholder="   (55) 9.9999-9999">
+                <label for="itele"><span class="material-symbols-outlined" style="font-size: 50px;">
+                    smartphone
+                </span></label>
+                <input type="tel" name="tele" id="itele" required placeholder="(99) 9.9999-9999">
             </p>
 
-            <input type="submit" value="Enviar">
-            <input type="reset" value="Limpar">
+            <p id="botao">
+                <input type="submit" id="enviar" value="Enviar">
+                <input type="reset" id="limpar" value="Limpar">
+            </p>
         </form>
 
     </main>
