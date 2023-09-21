@@ -6,7 +6,7 @@
 }
 
 body{    
-    background-color: rgba(74, 215, 215, 0.458);    
+    background-color: white;    
     max-height: 750px;
 }
 
@@ -52,12 +52,20 @@ main{
     
 }
 
+body > div.img{
+    background-image: url('imagens/estudante.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    height: 900px;
+    width: 100%;
+}
+
 main p { /* para todo parágrado dentro de main*/
     padding: 8px;
 }
 
 div.container{
-    overflow-y: scroll;
     padding-bottom: 719px;
 }
 
