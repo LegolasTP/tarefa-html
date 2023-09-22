@@ -91,26 +91,42 @@ footer > img{ /* configurações para imagem dentro do rodapé */
 }
 
 footer > p {
-
-    padding-top: 5px;
+    padding-top: 20px;
 }
 
 
 /* ------------------------ INSCRIÇÃO --------------------------*/
 
+h1{
+    text-align: center;
+    font-size: 2.5em;
+    padding-top: 15px;    
+    font-variant: small-caps;
+}
 
-main > form > p{
+form{
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    top: 50%;
+    background-color: rgb(236, 236, 236);
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.438);
+    transform: translate(-50%, -50%);
+}
+
+form > p{
     padding-top: 5px;
     height: 60px;
     width: 400px;
     margin: auto;
 }
 
-main > form > p > label > span{   
+form > p > label > span{   
     color: rgb(47, 85, 211);
 }
 
-main > form > p > input{
+form > p > input{
     width: 250px;
     height: 40px;
     text-align: center;
@@ -118,4 +134,8 @@ main > form > p > input{
     font-size: 18px;
 }
 
-
+p#botao > input{
+    margin-top: 20px;
+    width: 150px;
+    
+}
