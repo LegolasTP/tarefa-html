@@ -61,6 +61,13 @@ body > div.img{
     width: 100%;
 }
 
+aside{
+    text-align: right;
+    color: rgb(175, 175, 175);
+    padding-right: 5px;
+    font-style: italic;
+}
+
 main p { /* para todo parágrado dentro de main*/
     padding: 8px;
 }
