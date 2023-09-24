@@ -125,7 +125,6 @@ form > p{
     padding-top: 5px;
     height: 60px;
     width: 400px;
-    margin: auto;
 }
 
 form > p > label > span{   
@@ -142,6 +141,44 @@ form > p > input{
 
 p#botao > input{
     margin-top: 20px;
+    width: 150px;
+    
+}
+/* ------------------------ CONTATO -------------------------- */
+
+main > div#mapa{
+    text-align: center;
+}
+
+div#mapa > iframe{    
+    overflow-x: scroll; 
+}
+
+h2{
+    text-align: center;
+    padding: 20px 0px 0px 0px;
+}
+
+form#fcontato{
+    height: 380px;
+    margin-top: 30px;
+}
+
+form#fcontato > p{
+    text-align: center;
+}
+
+textarea{
+    resize: none;
+}
+
+.centro{
+    padding-top: 15px;
+    text-align: center;
+}
+
+p#enviar > input{
+    margin-top: 140px;
     width: 150px;
     
 }
