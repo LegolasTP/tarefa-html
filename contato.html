@@ -32,33 +32,31 @@
         <div id="mapa"> <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3694.010007406243!2d-46.74864492459143!3d-22.201725979757516!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c9ae77d7472623%3A0x8dbd3e52ef6d1107!2sUniPinhal!5e0!3m2!1spt-BR!2sbr!4v1695507291578!5m2!1spt-BR!2sbr" width="350" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> </div>
 
         <h2>Entre em contato:</h2>
-        <form action="" id="fcontato" method="get" autocomplete="on">
-            <p>                
-                <label for="inome"><span class="material-symbols-outlined" style="font-size: 50px;">
-                    person
-                </span></label>
-                <input type="text" name="nome" id="inome" required placeholder="Nome" autocomplete="name">
-            </p>
-
-            <p>
-                <label for="iemail"><span class="material-symbols-outlined" style="font-size: 50px;">
-                    mail
-                </span></label>
-                <input type="email" name="email" id="iemail" required placeholder="E-mail" autocomplete="email">
-            </p>
-
-            <p>
-               <textarea name="texto" id="itexto" cols="30" rows="10" placeholder="                 
-               
-               
-                Digite sua dúvida"></textarea>
-            </p>
-
-            <p id="enviar">
-                <input type="submit" id="enviar" value="Enviar">
-                <input type="reset" id="limpar" value="Limpar">
-            </p>
-        </form>
+        
     </main>
+
+    <form action="" id="fcontato" method="get" autocomplete="on">
+        <p>                
+            <label for="inome"><span class="material-symbols-outlined" style="font-size: 50px;">
+                person
+            </span></label>
+            <input type="text" name="nome" id="inome" required placeholder="Nome" autocomplete="name">
+        </p>
+
+        <p>
+            <label for="iemail"><span class="material-symbols-outlined" style="font-size: 50px;">
+                mail
+            </span></label>
+            <input type="email" name="email" id="iemail" required placeholder="E-mail" autocomplete="email">
+        </p>           
+           <textarea name="texto" id="itexto" cols="30" rows="10" placeholder="                 
+           
+           
+                 Digite sua dúvida" required></textarea>          
+        <div id="enviar">
+            <input type="submit" id="enviar" value="Enviar">
+            <input type="reset" id="limpar" value="Limpar">
+        </div>
+    </form>
 </body>
 </html>

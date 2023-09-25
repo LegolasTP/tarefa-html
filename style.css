@@ -7,9 +7,7 @@
 
 body{    
     background-color: white;    
-    max-height: 750px;
 }
-
 
 .nav{
     background-color: rgb(36, 138, 227);
@@ -24,7 +22,6 @@ body{
     text-align: center;
     padding-top: 35px;
     height: 100%;
-
 }
 
 .nav > a{
@@ -40,16 +37,14 @@ body{
 }
 
 main{
-    max-width: 800px;
- 
+    max-width: 800px; 
     background-color: rgb(255, 255, 255);
     margin: auto;
     text-align: justify;
     padding: 10px;
     text-indent: 1.5em;
     line-height: 1.2em;
-    font-size: 1.2em;    
-    
+    font-size: 1.2em;        
 }
 
 body > div.img{
@@ -58,7 +53,6 @@ body > div.img{
     background-size: cover;
     background-position: top center;
     height: 900px;
-    width: 100%;
 }
 
 aside{
@@ -68,7 +62,7 @@ aside{
     font-style: italic;
 }
 
-main p { /* para todo parágrado dentro de main*/
+main > p { /* para todo parágrado dentro de main*/
     padding: 8px;
 }
 
@@ -88,8 +82,7 @@ footer{ /* configuraçõe para o rodapé */
     text-align: center; /* texto alinhado ao centro */
     background-color: rgb(36, 138, 227); 
     color: white; 
-    height: 90px; /* mesma altura da imagem*/
-    
+    height: 90px; /* mesma altura da imagem*/    
 }
 
 footer > img{ /* configurações para imagem dentro do rodapé */
@@ -117,8 +110,7 @@ form{
     text-align: center;    
     background-color: rgb(236, 236, 236);
     border-radius: 8px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.438);
-   
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.438);   
 }
 
 form > p{
@@ -150,26 +142,24 @@ main > div#mapa{
     text-align: center;
 }
 
-div#mapa > iframe{    
-    overflow-x: scroll; 
-}
-
 h2{
     text-align: center;
-    padding: 20px 0px 0px 0px;
+    padding-top: 20px;
 }
 
 form#fcontato{
-    height: 380px;
+    height: 355px;
     margin-top: 30px;
 }
 
-form#fcontato > p{
-    text-align: center;
+form#fcontato > p > input {
+    width: 208px;
 }
 
 textarea{
     resize: none;
+    display: block;
+    margin: auto;
 }
 
 .centro{
@@ -177,8 +167,13 @@ textarea{
     text-align: center;
 }
 
-p#enviar > input{
-    margin-top: 140px;
+div#enviar {
+    text-align: center;
+}
+
+div#enviar > input{
+    font-size: 18px;
+    height: 40px;
     width: 150px;
-    
+    margin-top: 20px;
 }
