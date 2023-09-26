@@ -30,10 +30,11 @@ body{
     font-size: 20px;
 }
 
-.nav > a > div:hover{  /* quando passar o mouse na div do link*/
-
+.nav > a > div:hover{  
+    font-size: 1.2em;
+    text-decoration: underline;
     background-color: rgb(32, 122, 201);
-    transition: 0.9s;  /* tempo para trocar a cor do fundo */
+    transition: 0.9s;  
 }
 
 main{
@@ -62,7 +63,7 @@ aside{
     font-style: italic;
 }
 
-main > p { /* para todo parágrado dentro de main*/
+main > p { 
     padding: 8px;
 }
 
@@ -78,16 +79,16 @@ div#video{
     transform: translate(-50%);
 }
 
-footer{ /* configuraçõe para o rodapé */
-    text-align: center; /* texto alinhado ao centro */
+footer{ 
+    text-align: center; 
     background-color: rgb(36, 138, 227); 
     color: white; 
-    height: 90px; /* mesma altura da imagem*/    
+    height: 90px;   
 }
 
-footer > img{ /* configurações para imagem dentro do rodapé */
+footer > img{ 
 
-    float: left; /* faz ela ficar no canto esquerdo*/
+    float: left; 
 }
 
 footer > p {
@@ -108,7 +109,7 @@ form{
     margin: 60px auto;
     width: 400px;
     text-align: center;    
-    background-color: rgb(236, 236, 236);
+    background-image: linear-gradient(to right, rgb(228, 228, 228), rgb(197, 197, 197));
     border-radius: 8px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.438);   
 }
@@ -129,6 +130,15 @@ form > p > input{
     text-align: center;
     transform: translateY(-18px);
     font-size: 18px;
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.671);
+    border-radius: 5px;
+}
+
+form > p > input:focus, textarea:focus{
+    background-color: rgb(228, 228, 228);
+    outline: none;
+
 }
 
 p#botao > input{
@@ -138,8 +148,9 @@ p#botao > input{
 }
 /* ------------------------ CONTATO -------------------------- */
 
-main > div#mapa{
+div#mapa{
     text-align: center;
+    padding-top: 10px;
 }
 
 h2{
@@ -160,6 +171,9 @@ textarea{
     resize: none;
     display: block;
     margin: auto;
+    width: 263px;
+    text-align: center;
+    padding-top: 20px;
 }
 
 .centro{
