@@ -159,19 +159,24 @@ h2{
 }
 
 form#fcontato{
-    height: 355px;
+    height: 370px;
+    width: 385px;
     margin-top: 30px;
 }
 
+form#fcontato > p{
+    width: 380px;
+}
+
 form#fcontato > p > input {
-    width: 208px;
+    width: 220px;
 }
 
 textarea{
     resize: none;
     display: block;
     margin: auto;
-    width: 263px;
+    width: 270px;
     text-align: center;
     padding-top: 20px;
 }
