@@ -9,9 +9,18 @@ body{
     background-color: white;    
 }
 
+.cabeca{
+    height: 120px;
+    background-color: rgb(142, 191, 236);
+    text-align: center;
+    font-size: 3em;
+    font-weight: bold;
+    padding-top: 12px;
+}
+
 .nav{
     background-color: rgb(36, 138, 227);
-    height: 100px;
+    height: 90px;
     overflow: hidden;
 }
 
