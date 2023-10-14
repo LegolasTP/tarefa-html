@@ -10,7 +10,7 @@
 </head>
 <body>
     <div class="nav">
-
+        
         <a href="index.html">
             <div>Curso</div>
         </a>
@@ -21,6 +21,9 @@
             <div  style="background-color: #207ac9;">Contato</div>
         </a>
     </div>
+
+    <div class="img" style="background-image: url('imagens/campus.jpg');"></div>
+
     <h1>Como nos encontrar?</h1>
            
 
@@ -35,7 +38,7 @@
         
   
 
-    <form action="" id="fcontato" method="get" autocomplete="on">
+    <form action="" id="fcontato" method="get" autocomplete="on" onsubmit="mensagem()">
         <p>                
             <label for="inome"><span class="material-symbols-outlined" style="font-size: 50px;">
                 person
@@ -55,5 +58,7 @@
             <input type="reset" id="limpar" value="Limpar">
         </div>
     </form>
+
+    <script src="script.js"></script>
 </body>
 </html>

@@ -15,3 +15,7 @@ function exibe(){
 function cadastro(){
     alert('Você foi inscrito com sucesso!')  
 }
+
+function mensagem(){
+    alert('Mensagem Enviada!')
+}
