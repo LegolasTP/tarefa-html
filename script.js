@@ -11,3 +11,7 @@ function exibe(){
     texto.style.color = 'black'
     texto.style.textDecoration = 'none'
 }
+
+function cadastro(){
+    alert('Você foi inscrito com sucesso!')  
+}
